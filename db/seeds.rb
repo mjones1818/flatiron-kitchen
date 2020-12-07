@@ -1,5 +1,7 @@
 # Trisha Yearwood's Blueberry Pancakes Recipe
 # http://www.foodnetwork.com/recipes/trisha-yearwood/blueberry-pancakes-recipe.html
+Recipe.destroy_all
+Ingredient.destroy_all
 
 blueberry_pancakes = Recipe.new(name: 'Blueberry Pancakes')
 blueberry_pancakes_ingredients = ['All-purpose flour', 'Sugar', 'Baking powder', 'Baking soda', 'Salt', 'Large eggs', 'Milk', 'Sour cream', 'Butter', 'Vanilla extract', 'Blueberries', 'Lemon zest']
